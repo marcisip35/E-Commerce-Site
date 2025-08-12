@@ -234,6 +234,7 @@ nav {
     margin-right: 10px;
     border: none;
     cursor: pointer;
+    z-index: 99;
 
     display: flex;
 }

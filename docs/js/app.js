@@ -30,8 +30,12 @@ function closeSidebarFunc() {
     document.body.classList.remove("sidebar-open");
 }
 
-closeSidebar.addEventListener("click", closeSidebarFunc);
-sidebarOverlay.addEventListener("click", closeSidebarFunc);
+if (closeSidebar) {
+    closeSidebar.addEventListener("click", closeSidebarFunc);
+}
+if (sidebarOverlay) {
+    sidebarOverlay.addEventListener("click", closeSidebarFunc);
+}
 
 // Update cart summary
 function updateCartSummary() {
