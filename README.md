@@ -7,3 +7,4 @@ A front-end e-commerce site built with HTML, CSS, and JavaScript, designed with 
 
 - All images are royalty-free photos from https://unsplash.com/
 - Mock e-commerce website, no actual products or company
+<img width="1920" height="887" alt="frontpage" src="https://github.com/user-attachments/assets/a711189e-9114-40f8-87f9-be218b15ef04" />
