@@ -238,9 +238,13 @@ nav {
     margin-right: 10px;
     border: none;
     cursor: pointer;
-    z-index: 99;
+    z-index: 999;
 
     display: flex;
+}
+
+#close-sidebar img{
+    background-color: var(--color-black);
 }
 
 #sidebar-overlay.active {
