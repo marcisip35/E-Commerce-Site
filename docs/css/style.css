@@ -859,6 +859,14 @@ footer .container {
         padding-right: 20px;
     }
 
+    #hero{
+        min-height: 400px;
+    }
+
+    #quick-links-list li{
+        height: 300px;
+    }
+
     #footer-links {
         flex-direction: column;
         gap: 40px;
