@@ -154,7 +154,7 @@ nav {
     position: fixed;
     top: 0;
     right: 0;
-    width: 400px;
+    width: 350px;
     height: 100vh;
     background-color: var(--color-white);
     z-index: 1000;
