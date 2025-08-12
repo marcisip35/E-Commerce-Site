@@ -279,7 +279,7 @@ nav {
 
 /* Hero Section */
 #hero {
-    background-image: url('images/hero-image.png');
+    background-image: url('/docs/images/hero-image.png');
     background-size: cover;
     background-position: center 5%;
     background-repeat: no-repeat;
@@ -375,19 +375,19 @@ nav {
 }
 
 #ql-best-sellers {
-    background-image: url(images/quick-product-link-image1.jpg);
+    background-image: url(/docs/images/quick-product-link-image1.jpg);
 }
 
 #ql-suits {
-    background-image: url(images/quick-product-link-image2.jpg);
+    background-image: url(/docsimages/quick-product-link-image2.jpg);
 }
 
 #ql-watches {
-    background-image: url(images/quick-product-link-image3.jpg);
+    background-image: url(/docsimages/quick-product-link-image3.jpg);
 }
 
 #ql-shoes {
-    background-image: url(images/quick-product-link-image4.jpg);
+    background-image: url(/docsimages/quick-product-link-image4.jpg);
 }
 
 /* About Us Section */
