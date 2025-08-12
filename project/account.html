@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Account - Lorem Ipsum</title>
+    <link rel="icon" type="image/png" href="/images/favicon.png">
     <link rel="stylesheet" href="/css/account-styles.css">
 </head>
 
@@ -12,9 +13,9 @@
     <main class="container" role="main" aria-label="Account main content">
         <section id="login-main" aria-labelledby="login-title" aria-label="Login section">
             <a href="index.html" class="home-btn" aria-label="Go to home page">
-                <svg xmlns="http://www.w3.org/2000/svg" width="20px"
-                    viewBox="0 0 24 24" role="img" aria-labelledby="arrowLeftIconTitle" stroke="#000000"
-                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none" color="#000000">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20px" viewBox="0 0 24 24" role="img"
+                    aria-labelledby="arrowLeftIconTitle" stroke="#000000" stroke-width="2" stroke-linecap="round"
+                    stroke-linejoin="round" fill="none" color="#000000">
                     <title id="arrowLeftIconTitle">Arrow Left</title>
                     <path d="M9 6l-6 6 6 6" />
                     <path d="M21 12H4" />
@@ -25,24 +26,26 @@
             <h1 class="login-title" id="login-title" aria-label="Login to Lorem Ipsum">Lorem Ipsum</h1>
             <form id="login" autocomplete="on" aria-label="Login form">
                 <label for="email">Email</label>
-                <input type="email" id="email" name="email" placeholder="Enter your email" required
-                    autocomplete="email" aria-label="Email address">
+                <input type="email" id="email" name="email" placeholder="Enter your email" required autocomplete="email"
+                    aria-label="Email address">
                 <label for="password">Password</label>
                 <input type="password" id="password" name="password" placeholder="Enter your password" required
                     autocomplete="current-password" aria-label="Password">
                 <button id="login-btn" type="submit" aria-label="Log in to your account">Log In</button>
             </form>
-            <div style="display: flex; flex-direction: column; align-items: center; gap: 10px;" aria-label="Login options">
+            <div style="display: flex; flex-direction: column; align-items: center; gap: 10px;"
+                aria-label="Login options">
                 <button id="signup-section" type="button" aria-label="Sign up for a new account">Sign Up</button>
                 <p aria-label="or">or</p>
-                <button id="forgot-password-btn" type="button" aria-label="Recover your password">Forgot Password</button>
+                <button id="forgot-password-btn" type="button" aria-label="Recover your password">Forgot
+                    Password</button>
             </div>
         </section>
         <section id="signup-main" aria-label="Sign up section" aria-labelledby="signup-title" hidden>
             <a href="index.html" class="home-btn" aria-label="Go to home page">
-                <svg xmlns="http://www.w3.org/2000/svg" width="20px"
-                    viewBox="0 0 24 24" role="img" aria-labelledby="arrowLeftIconTitle2" stroke="#000000"
-                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none" color="#000000">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20px" viewBox="0 0 24 24" role="img"
+                    aria-labelledby="arrowLeftIconTitle2" stroke="#000000" stroke-width="2" stroke-linecap="round"
+                    stroke-linejoin="round" fill="none" color="#000000">
                     <title id="arrowLeftIconTitle2">Arrow Left</title>
                     <path d="M9 6l-6 6 6 6" />
                     <path d="M21 12H4" />
@@ -56,10 +59,11 @@
                 <input type="email" id="signup-email" name="signup-email" placeholder="Enter your email" required
                     autocomplete="email" aria-label="Signup email address">
                 <label for="signup-password">Password</label>
-                <input type="password" id="signup-password" name="signup-password" placeholder="Enter your password" required
-                    autocomplete="new-password" aria-label="Signup password">
+                <input type="password" id="signup-password" name="signup-password" placeholder="Enter your password"
+                    required autocomplete="new-password" aria-label="Signup password">
                 <button id="signup-btn" type="submit" aria-label="Sign up for a new account">Sign Up</button>
-                <div style="display: flex; flex-direction: column; align-items: center; gap: 10px;" aria-label="Signup options">
+                <div style="display: flex; flex-direction: column; align-items: center; gap: 10px;"
+                    aria-label="Signup options">
                     <button id="login-section" type="button" aria-label="Log in to your account">Log In</button>
                 </div>
             </form>
