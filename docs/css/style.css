@@ -145,6 +145,10 @@ nav {
     width: 20px;
 }
 
+#cart-count{
+    color: var(--color-black);
+}
+
 /* Cart Sidebar */
 #cart-sidebar {
     position: fixed;
@@ -531,6 +535,10 @@ nav {
     display: none;
 }
 
+#best-sellers-select, #sale-select{
+    color: var(--color-black);
+}
+
 #best-sellers {
     scrollbar-width: none;
 }
@@ -692,6 +700,7 @@ footer .container {
 }
 
 .sign-up-newsletter-button {
+    background-color: var(--color-white);
     width: 30px;
     height: 28px;
     border: none;
