@@ -218,18 +218,18 @@ featuredNext.addEventListener("click", () => {
 
 /* Moving Banner */
 const bannerSentences = [
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    "Sed ut perspiciatis unde omnis iste natus error sit voluptatem",
-    "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis",
-    "Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id",
-    "Itaque earum rerum hic tenetur a sapiente delectus"
+    "Style that speaks.",
+    "Luxury made simple.",
+    "Crafted to impress.",
+    "Quality you can feel.",
+    "Designed for you."
 ];
 
 const bannerText = document.getElementById("banner-text");
 let bannerIndex = 0;
 
 function showNextBannerSentence() {
-    
+
     bannerText.classList.add("fade");
     setTimeout(() => {
         bannerIndex = (bannerIndex + 1) % bannerSentences.length;
