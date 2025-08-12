@@ -90,7 +90,7 @@ header.sticky {
     left: 0;
     z-index: 100;
     box-shadow: 0 2px 12px rgba(20, 20, 20, 0.08);
-    background: #fff;
+    background: var(--color-white);
 }
 
 nav {
@@ -108,8 +108,6 @@ nav {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-
-    box-shadow: 0 2px 12px rgba(20, 20, 20, 0.1);
 }
 
 .nav-list {
@@ -379,15 +377,15 @@ nav {
 }
 
 #ql-suits {
-    background-image: url(..images/quick-product-link-image2.jpg);
+    background-image: url(../images/quick-product-link-image2.jpg);
 }
 
 #ql-watches {
-    background-image: url(..images/quick-product-link-image3.jpg);
+    background-image: url(../images/quick-product-link-image3.jpg);
 }
 
 #ql-shoes {
-    background-image: url(..images/quick-product-link-image4.jpg);
+    background-image: url(../images/quick-product-link-image4.jpg);
 }
 
 /* About Us Section */
