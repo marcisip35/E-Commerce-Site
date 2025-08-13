@@ -6,7 +6,7 @@ A front-end e-commerce site built with HTML, CSS, and JavaScript, designed with 
 - Mobile friendly, scroll/drag through the items in the products sections of the front page
 - Home page and account page are available
 
-- All images are royalty-free photos from https://unsplash.com/
+- All images are royalty-free photos from Unsplash
 - Optimized for SEO and performance using semantic HTML and clean code practices, and structured to integrate seamlessly with backend functionality.
 - Mock e-commerce website, no actual products or company
 
